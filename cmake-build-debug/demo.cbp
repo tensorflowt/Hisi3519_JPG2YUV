@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-Dhi3519av100"/>
+					<Add option="-DHI_XXXX"/>
+					<Add option="-DISP_V2"/>
+					<Add option="-DHI_RELEASE"/>
+					<Add option="-DVER_X=1"/>
+					<Add option="-DVER_Y=0"/>
+					<Add option="-DVER_Z=0"/>
+					<Add option="-DVER_P=0"/>
+					<Add option="-DVER_B=10"/>
+					<Add option="-DUSER_BIT_32"/>
+					<Add option="-DKERNEL_BIT_32"/>
+					<Add option="-DSENSOR0_TYPE=SONY_IMX334_MIPI_8M_30FPS_12BIT"/>
+					<Add option="-DSENSOR1_TYPE=SONY_IMX290_SLAVE_MIPI_2M_60FPS_10BIT"/>
+					<Add option="-DSENSOR2_TYPE=SONY_IMX290_SLAVE_MIPI_2M_60FPS_10BIT"/>
+					<Add option="-DSENSOR3_TYPE=SONY_IMX290_SLAVE_MIPI_2M_60FPS_10BIT"/>
+					<Add option="-DSENSOR4_TYPE=SONY_IMX334_MIPI_8M_30FPS_12BIT"/>
+					<Add option="-DHI_ACODEC_TYPE_INNER"/>
+					<Add option="-DHI_ACODEC_TYPE_HDMI"/>
+					<Add option="-DSMP"/>
+					<Add directory="/home/zhang/C_server/arm-himix200-linux/include"/>
+					<Add directory="/home/zhang/C_server/Hi3519_JPG2YUV/include"/>
+					<Add directory="/home/zhang/C_server/Hi3519_JPG2YUV/src/include"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include/c++/6.3.0"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include/c++/6.3.0/arm-linux-gnueabi"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include/c++/6.3.0/backward"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/include"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/include-fixed"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../target/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-Dhi3519av100"/>
+					<Add option="-DHI_XXXX"/>
+					<Add option="-DISP_V2"/>
+					<Add option="-DHI_RELEASE"/>
+					<Add option="-DVER_X=1"/>
+					<Add option="-DVER_Y=0"/>
+					<Add option="-DVER_Z=0"/>
+					<Add option="-DVER_P=0"/>
+					<Add option="-DVER_B=10"/>
+					<Add option="-DUSER_BIT_32"/>
+					<Add option="-DKERNEL_BIT_32"/>
+					<Add option="-DSENSOR0_TYPE=SONY_IMX334_MIPI_8M_30FPS_12BIT"/>
+					<Add option="-DSENSOR1_TYPE=SONY_IMX290_SLAVE_MIPI_2M_60FPS_10BIT"/>
+					<Add option="-DSENSOR2_TYPE=SONY_IMX290_SLAVE_MIPI_2M_60FPS_10BIT"/>
+					<Add option="-DSENSOR3_TYPE=SONY_IMX290_SLAVE_MIPI_2M_60FPS_10BIT"/>
+					<Add option="-DSENSOR4_TYPE=SONY_IMX334_MIPI_8M_30FPS_12BIT"/>
+					<Add option="-DHI_ACODEC_TYPE_INNER"/>
+					<Add option="-DHI_ACODEC_TYPE_HDMI"/>
+					<Add option="-DSMP"/>
+					<Add directory="/home/zhang/C_server/arm-himix200-linux/include"/>
+					<Add directory="/home/zhang/C_server/Hi3519_JPG2YUV/include"/>
+					<Add directory="/home/zhang/C_server/Hi3519_JPG2YUV/src/include"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include/c++/6.3.0"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include/c++/6.3.0/arm-linux-gnueabi"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include/c++/6.3.0/backward"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/include"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/include-fixed"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../lib/gcc/arm-linux-gnueabi/6.3.0/../../../../arm-linux-gnueabi/include"/>
+					<Add directory="/opt/hisi-linux/x86-arm/arm-himix200-linux/host_bin/../target/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zhang/C_server/Hi3519_JPG2YUV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zhang/C_server/Hi3519_JPG2YUV/src/JPG2YUV.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/home/zhang/C_server/Hi3519_JPG2YUV/src/common/sample_comm_ive.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/home/zhang/C_server/Hi3519_JPG2YUV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
